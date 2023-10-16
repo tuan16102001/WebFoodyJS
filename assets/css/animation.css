@@ -1,0 +1,102 @@
+
+/* làm chuyển động Animation paypill dòng chạy chạy chữ*/
+.Animation {
+    /* border: 1px solid red; */
+    text-align: center;
+    background: #c3c8d2;
+    width: 71%;
+    border-radius: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+    position: relative;
+    animation: myAnimation 5s ease-out infinite;
+    -moz-animation: myAnimation 5s ease-out infinite;
+    -webkit-animation: myAnimation 5s ease-out infinite;
+    -o-animation: myAnimation 5s ease-out infinite;
+}
+
+@keyframes myAnimation {
+    from {left: 0px;}
+    to {left: 380px;}
+}
+/* tiếp theo Animation của cái box */
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+.box {
+    animation-duration: 2s;
+    animation-name: bounceIn;
+}
+
+
+
+/* Foody admin chuyển động phóng to thu nhỏ */
+
+@keyframes title {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.para {
+  animation-duration: 2s;
+  animation-name: title;
+  /* lặp lại vô số lần */
+  animation-iteration-count: infinite; 
+}
+
+
+
+/* para đổi màu chữ Foody Admin */
+@keyframes color-animation {
+  0% {
+      color: rgb(136, 136, 112);
+  }
+  50% {
+      color: red;
+  }
+  100% {
+      color: orangered;
+  }
+}
+
+.para {
+  animation: color-animation 3s infinite; /* Áp dụng animation với chu kỳ vô hạn trong 3 giây */
+}
+
+
+
+/* thay đổi kiểu chữ title thống kê  */
+.marquee-text {
+  animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+  0% { color: red; }
+  25% { color: blue; }
+  50% { color: green; }
+  75% { color: purple; }
+  100% { color: orange; }
+}
+
+
+

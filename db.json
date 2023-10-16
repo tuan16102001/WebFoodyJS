@@ -1,0 +1,204 @@
+{
+  "tables": [
+    {
+      "id": 1,
+      "status": true,
+      "customerName": "",
+      "capacity": 0
+    },
+    {
+      "id": 2,
+      "status": true,
+      "customerName": "",
+      "capacity": 0
+    },
+    {
+      "id": 3,
+      "status": false,
+      "customerName": "y",
+      "capacity": 3
+    },
+    {
+      "id": 4,
+      "status": false,
+      "customerName": "truong",
+      "capacity": 3
+    },
+    {
+      "id": 5,
+      "status": false,
+      "customerName": "Lê Văn Tịnh",
+      "capacity": 2
+    },
+    {
+      "id": 6,
+      "status": false,
+      "customerName": "Huỳnh Anh Tuấn",
+      "capacity": 2
+    },
+    {
+      "id": 7,
+      "status": true,
+      "customerName": "",
+      "capacity": 0
+    },
+    {
+      "id": 8,
+      "status": true,
+      "customerName": "",
+      "capacity": 0
+    },
+    {
+      "id": 9,
+      "status": false,
+      "customerName": "tuan",
+      "capacity": 3
+    },
+    {
+      "id": 10,
+      "status": false,
+      "customerName": "anh ti",
+      "capacity": 2
+    },
+    {
+      "id": 11,
+      "status": false,
+      "customerName": "anh ti",
+      "capacity": 2
+    },
+    {
+      "id": 12,
+      "status": false,
+      "customerName": "anh ti",
+      "capacity": 2
+    }
+  ],
+  "Menu": [
+    {
+      "id": "1",
+      "img": "./assets/img/vit-nuong-nha-trang-1_1675360278.jpg",
+      "food": "Mực",
+      "price": "15",
+      "quantity": 0
+    },
+    {
+      "id": "2",
+      "img": "./assets/img/gà.jpg",
+      "food": "Gà",
+      "price": "17",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "img": "./assets/img/muc-hap-bia.jpg",
+      "food": "Tôm",
+      "price": "16",
+      "quantity": 2
+    },
+    {
+      "id": "4",
+      "img": "./assets/img/cua.jpg",
+      "food": "Cua",
+      "price": "16",
+      "quantity": 2
+    },
+    {
+      "id": "5",
+      "img": "./assets/img/cơm tấm.jpg",
+      "food": "Cơm tấm",
+      "price": "25",
+      "quantity": 2
+    },
+    {
+      "id": "6",
+      "img": "./assets/img/tôm hùm.jpg",
+      "food": "Tôm hùm",
+      "price": "55",
+      "quantity": 2
+    },
+    {
+      "id": "7",
+      "img": "./assets/img/bánh mỳ.jpg",
+      "food": "Bánh Mỳ",
+      "price": "55",
+      "quantity": 2
+    },
+    {
+      "id": "8",
+      "img": "./assets/img/bánh mỳ.jpg",
+      "food": "Bánh Mỳ",
+      "price": "55",
+      "quantity": 2
+    },
+    {
+      "id": "9",
+      "img": "./assets/img/bánh mỳ.jpg",
+      "food": "Bánh Mỳ",
+      "price": "55",
+      "quantity": 2
+    },
+    {
+      "id": "10",
+      "img": "./assets/img/bánh mỳ.jpg",
+      "food": "Bánh Mỳ",
+      "price": "50",
+      "quantity": 2
+    },
+    {
+      "id": "11",
+      "img": "./assets/img/bánh mỳ.jpg",
+      "food": "Bánh Mỳ",
+      "price": "50",
+      "quantity": 2
+    },
+    {
+      "id": "12",
+      "img": "./assets/img/bánh mỳ.jpg",
+      "food": "Bánh Mỳ",
+      "price": "50",
+      "quantity": 2
+    }
+  ],
+  "orders": [
+    {
+      "IdTable": "5",
+      "items": [
+        {
+          "foodName": "Tôm",
+          "idItemFood": "3",
+          "imageItemFood": "./assets/img/muc-hap-bia.jpg",
+          "quantity": 1,
+          "priceItemFood": "16"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "IdTable": "3",
+      "items": [
+        {
+          "foodName": "Gà",
+          "idItemFood": "2",
+          "imageItemFood": "./assets/img/gà.jpg",
+          "quantity": 1,
+          "priceItemFood": "17"
+        },
+        {
+          "foodName": "Tôm",
+          "idItemFood": "3",
+          "imageItemFood": "./assets/img/muc-hap-bia.jpg",
+          "quantity": 2,
+          "priceItemFood": "16"
+        },
+        {
+          "foodName": "Cua",
+          "idItemFood": "4",
+          "imageItemFood": "./assets/img/cua.jpg",
+          "quantity": 2,
+          "priceItemFood": "16"
+        }
+      ],
+      "id": 4
+    }
+  ]
+}

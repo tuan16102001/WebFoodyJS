@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foody</title>
+    <link rel="stylesheet" href="assets/css/foody.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid admin">
+        <div class="left">
+            <div class="big" id="left_to">
+                <div class="title">
+                    <h4 class="para">Foody Admin</h4>
+                    <i class="fa-solid fa-bars" id="iconto"></i>
+                </div>
+                <hr>
+
+                <div class="navs">
+                    <i class="fa-solid fa-gauge-high"></i>
+                    <p> Dashboard</p>
+                    <i class="fa-solid fa-chevron-right "></i>
+                </div>
+
+                <h6>UL ELEMENTS</h6>
+                <hr>
+
+                <div class="navs">
+                    <i class="fa-solid fa-chair"></i>
+                    <p>Reservations</p>
+                    <i class="fa-solid fa-chevron-right "></i>
+                </div>
+
+                <div class="navs">
+                    <i class="fa-solid fa-utensils"></i>
+                    <p>Order food</p>
+                    <i class="fa-solid fa-chevron-right "></i>
+                </div>
+
+                <div class="navs">
+                    <i class="fa-solid fa-money-bill"></i>
+                    <p>Pay Bills</p>
+                    <i class="fa-solid fa-chevron-right "></i>
+                </div>
+
+                <div class="navs">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Information</p>
+                    <i class="fa-solid fa-chevron-right "></i>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="medium" id="left_nho">
+                <div class="title">
+                    <h4 class="para">F</h4>
+                    <i class="fa-solid fa-hand-point-right" id="iconnho"></i>
+                </div>
+                <hr>
+
+                <div class="navs">
+                    <i class="fa-solid fa-gauge-high"></i>
+                    <i class="fa-solid fa-chevron-right "></i>
+                </div>
+
+                <hr>
+
+                <div class="navs">
+                    <i class="fa-solid fa-chair"></i>
+                    <i class="fa-solid fa-chevron-right "></i>
+                </div>
+
+                <div class="navs">
+                    <i class="fa-solid fa-utensils"></i>
+                    <i class="fa-solid fa-chevron-right "></i>
+                </div>
+
+                <div class="navs">
+                    <i class="fa-solid fa-money-bill"></i>
+                    <i class="fa-solid fa-chevron-right "></i>
+                </div>
+
+                <div class="navs">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-chevron-right "></i>
+                </div>
+            </div>
+
+            <div class="small">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                    <div class="container-fluid">
+                        <!-- <div class="two"> -->
+                        <a class="navbar-brand color_nav" href="#">Foody Admin</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- </div> -->
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <i class="fa-solid fa-gauge-high"></i>
+                                    <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                                    <i class="fa-solid fa-chevron-right "></i>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="fa-solid fa-chair"></i>
+                                    <a class="nav-link" href="#">Reservations</a>
+                                    <i class="fa-solid fa-chevron-right "></i>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="fa-solid fa-utensils"></i>
+                                    <a class="nav-link" href="#">Order food</a>
+                                    <i class="fa-solid fa-chevron-right "></i>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="fa-solid fa-money-bill"></i>
+                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Pay
+                                        Bills</a>
+                                    <i class="fa-solid fa-chevron-right "></i>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="fa-solid fa-user"></i>
+                                    <a class="nav-link" href="#">Information</a>
+                                    <i class="fa-solid fa-chevron-right "></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!--  -->
+
+        </div>
+
+        <div class="right">
+            <div class="right_header">
+                <div class="header_left">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-bell bell1" id="tuan"></i>
+                    <i class="fa-solid fa-envelope" id="letter"></i>
+                </div>
+
+                <div class="header_right">
+                    <img src="assets/img/Screenshot 2023-08-11 210001.jpg" alt="" class="img4">
+                    <img src="assets/img/avt.jpg" alt="" class="img3 avt" id="pic">
+                </div>
+            </div>
+
+            <div class="profile" id="profile2">
+                <p class="para1">My Profile</p>
+                <hr class="pro">
+                <p class="para1">My Profile</p>
+                <hr class="pro">
+                <p class="para1">Setting</p>
+                <hr class="pro">
+                <a href="register_login.html">
+                    <p class="para1">Logout</p>
+                </a>
+            </div>
+
+            <!-- gồm 5 box right -->
+            <div class="scroll">
+                <!-- Dashboard -->
+                <div class="box">
+                    <div class="container">
+                        <div class="row">
+                            <marquee width="20%" behavior="scroll" direction="left">
+                                <h1 class="marquee-text">Biểu đồ thể hiện số lượng khách mỗi bàn</h1>
+                            </marquee>
+                            <div id="charts-container"></div>
+                            
+                            <marquee width="20%" behavior="scroll" direction="left">
+                                <h1 class="marquee-text">Biểu đồ thể hiện tổng tiền mỗi bàn</h1>
+                            </marquee>
+                            <div id="chart-pie"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Table -->
+                <div class="box">
+                    <div class="container">
+                        <div class="row" id="datcho">
+
+                            <!-- <div class="content">
+                                        <p class="para2">1</p>
+                                        <img src="assets/img/true1.png" alt="">
+                                        <div class="btn">
+                                            <button>Add</button>
+                                            <button>Cart</button>
+                                        </div>
+                                    </div> -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+                <div class="box">
+                    <!-- phần ni làm cho liệt kê những bàn đã đặt -->
+                    <div class="select_table">
+                        <form action="" class="form1" id="form-group-oderfood">
+                            <label class="lb" for="tableId">Choose a tables: </label>
+                            <select class="form-select" id="tableId" aria-label="Default select example">
+                                <option selected>Table</option>
+                            </select>
+                            <button class="btnnn" type="submit" onclick="addOrder(event)">Order</button>
+                        </form>
+                    </div>
+
+
+                    <div class="container">
+                        <div class="row" id="order">
+                            <!-- <div class="table_order">
+                                <h3 class="para3">Món ăn 1</h3>
+                                <img src="assets/img/vit-nuong-nha-trang-1_1675360278.jpg" alt="" class="img5">
+                                <h4 class="para5">Vịt Nướng Nha Trang</h4>
+                                <p class="para4">Giá: 150.000đ</p>
+                                <div class="price">
+                                    <p>Số Lượng:</p>
+                                    <i class="fa-solid fa-plus"></i>
+                                    <button class="add">1</button>
+                                    <i class="fa-solid fa-minus"></i>
+                                </div>
+                            </div>    -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="box">
+                    <div class="container ctai">
+                        <!-- không được dùng form dùng thì phải cho cái  event.preventDefault(); -->
+                        <label class="lb1" for="tableId">Choose a tables: </label>
+                        <select class="form-select" id="paybill" onchange="loadOrderInfo()">
+                            <option selected>Table</option>
+                        </select>
+                        <button class="btn" onclick="payBills()">Pay Bills</button>
+                    </div>
+
+
+                    <div class="container">
+                        <div class="row" id="rowpay_bill">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="col">STT</th>
+                                        <th class="col">Foods</th>
+                                        <th class="col">Food Name</th>
+                                        <th class="col">Quantity</th>
+                                        <th class="col">Price</th>
+                                    </tr>
+                                </thead>
+
+                                <div class="center">
+                                    <p class="Animation">Thanh toán nhanh qua ví Vnpay hoặc Momo để được giảm 10% thời
+                                        hạn
+                                        chương trình đến tháng 12</p>
+                                </div>
+
+
+                                <tbody class="id-list-food-order" id="orderInfo">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- information -->
+                <div class="box">
+                    <div class="container">
+                        <form action="" id="form--update--info">
+                            <div class="row rowinfo">
+                                <div class="col-xl-4 col-md-4 col-12 col_left">
+                                    <div class="card ">
+                                        <div class="card_header">
+                                            Profile picture
+                                        </div>
+                                        <hr>
+                                        <div class="card_body">
+                                            <img src="assets/img/avt.jpg" alt="" class="avt">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="formFileSm" class="form-label1">JPG or PNG no larger than
+                                                5MB</label>
+                                            <!-- bắt buộc phải dùng type file -->
+                                            <input class="form-control form-control-sm" id="profileImage" type="file">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-8 col-md-8 col-12">
+                                    <div class="card cd">
+                                        <div class="cart_header">
+                                            Account Details
+                                        </div>
+                                        <hr>
+                                        <div class="mb-3">
+                                            <label for="formGroupExampleInput" class="form-label">Usename(how your name
+                                                will
+                                                appear to other users on the site)</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                                placeholder="Usename" id="inputusername">
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label for="inputEmail4" class="form-label">First name</label>
+                                                <input type="text" class="form-control" placeholder="First name"
+                                                    id="inputFirstname">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputPassword4" class="form-label">Last name</label>
+                                                <input type="text" class="form-control" placeholder="Last name"
+                                                    id="inputLastname">
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <label for="inputEmail4" class="form-label">Organization name</label>
+                                                <input type="text" class="form-control" placeholder="Organization"
+                                                    id="inputOrganizationname">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputPassword4" class="form-label">Location</label>
+                                                <input type="text" class="form-control" id="inputLocation">
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="formGroupExampleInput" class="form-label">Email address</label>
+                                            <input type="text" class="form-control" id="inputEmailaddress"
+                                                placeholder="Email address">
+                                        </div>
+
+                                        <div class="row ">
+                                            <div class="col-md-6">
+                                                <label for="inputEmail4" class="form-label">Phone number</label>
+                                                <input type="text" class="form-control" id="inputPhonenumber"
+                                                    placeholder="Phone number">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputPassword4" class="form-label">Birthday</label>
+                                                <input type="date" class="form-control" id="inputBirthday">
+                                            </div>
+                                        </div>
+
+                                        <button type="button" class="btn btn-primary save">Save changes</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal phần của nút booking -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Booking</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Tên người đặt</label>
+                                    <input type="text" class="form-control" id="customerName"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Số lượng khách</label>
+                                    <input type="number" class="form-control" id="capacity">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Đóng</button>
+                                    <!-- thêm cho hén 1 cái id để lấy ra  -->
+                                    <button type="submit" class="btn btn-primary" id="updateTableData">Booking</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal phần nút Add-->
+            <!-- <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            tuan
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- phần nút Cart -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Danh sách món ăn</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">STT</th>
+                                        <th scope="col">Foods</th>
+                                        <th scope="col">Food Name</th>
+                                        <th scope="col">Quanlity</th>
+                                        <th scope="col">Price</th>
+                                    </tr>
+                                </thead>
+                                <!-- thêm class vào để lấy ra danh sách trong modal cart -->
+                                <tbody class="list-food-order">
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="foody.js"></script>
+    <script src="getTable.js"></script>
+    <script src="evenBooking.js"></script>
+    <script src="getOrder.js"></script>
+    <script src="payBills.js"></script>
+    <script src="information.js"></script>
+    <script src="chart.js"></script>
+    <script src="register_login.js"></script>
+
+
+</body>
+
+</html>
